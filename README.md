@@ -1,2 +1,3 @@
-# IOCPExample
-IOCPExample for learning.
+# IOCPNet
+IOCP network library implementation.
+(For learning.)
