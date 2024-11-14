@@ -1,4 +1,5 @@
-﻿using System.Net;
+﻿using System;
+using System.Net;
 using System.Net.Sockets;
 
 // 基于IOCP封装的异步套接字通信 IOCP-based encapsulated asynchronous socket communication
@@ -13,6 +14,7 @@ namespace PENet
         public IOCPClient()
         {
             saea = new SocketAsyncEventArgs();
+            saea.Completed += new EventHandler<SocketAsyncEventArgs>(IO_Completed);
         }
 
         public void StartAsClient(string ip, int port)
@@ -35,13 +37,23 @@ namespace PENet
             bool suspend = skt.ConnectAsync(saea);
             if (!suspend) // Connection Success.
             {
+                IOCPTool.Log("Connection Success.");
                 ProcessConnect();
+            }
+            else
+            {
+                IOCPTool.Log("Connection Pending..."); // 连接挂起
             }
         }
 
         void ProcessConnect()
         {
             // TODO
+        }
+
+        void IO_Completed(object sender, SocketAsyncEventArgs saea)
+        {
+            ProcessConnect();
         }
     }
 }

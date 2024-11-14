@@ -9,18 +9,16 @@
 
 namespace IOCPExampleServer
 {
-    class Program
+    class ServerStart
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello, World!");
-
+            /*Console.WriteLine("Hello, World!");
             IOCPTool.ColorLogFunc = (color, str) =>
             {
                 Console.WriteLine($"Console: {str}");
             };
-
-            IOCPTool.ColorLog(IOCPLogColor.Green, "Server Start...");
+            IOCPTool.ColorLog(IOCPLogColor.Green, "Server Start...");*/
             Console.ReadKey();
         }
     }

@@ -98,8 +98,8 @@ namespace PENet
                     Console.ForegroundColor = ConsoleColor.Gray;
                     break;
                 case IOCPLogColor.None:
-                    break;
                 default:
+                    Console.WriteLine(msg);
                     break;
             }
         }

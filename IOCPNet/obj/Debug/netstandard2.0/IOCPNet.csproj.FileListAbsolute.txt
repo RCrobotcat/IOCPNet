@@ -8,3 +8,4 @@ C:\Users\25190\Desktop\course\IOCPNet_learn\IOCPNet\IOCPNet\obj\Debug\netstandar
 C:\Users\25190\Desktop\course\IOCPNet_learn\IOCPNet\IOCPNet\obj\Debug\netstandard2.0\IOCPNet.csproj.CoreCompileInputs.cache
 C:\Users\25190\Desktop\course\IOCPNet_learn\IOCPNet\IOCPNet\obj\Debug\netstandard2.0\IOCPNet.dll
 C:\Users\25190\Desktop\course\IOCPNet_learn\IOCPNet\IOCPNet\obj\Debug\netstandard2.0\IOCPNet.pdb
+C:\Users\25190\Desktop\course\IOCPNet_learn\IOCPNet\IOCPNet\obj\Debug\netstandard2.0\IOCPNet.sourcelink.json

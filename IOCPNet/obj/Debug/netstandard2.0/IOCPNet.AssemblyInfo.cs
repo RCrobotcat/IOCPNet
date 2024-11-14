@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("IOCPNet")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+dbf5b4689b7a6bec15b338a67b21dd9e247172a0")]
 [assembly: System.Reflection.AssemblyProductAttribute("IOCPNet")]
 [assembly: System.Reflection.AssemblyTitleAttribute("IOCPNet")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
