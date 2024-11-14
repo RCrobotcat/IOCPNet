@@ -1,0 +1,10 @@
+C:\Users\25190\Desktop\course\IOCPNet_learn\IOCPNet\IOCPNet\bin\Debug\netstandard2.0\IOCPNet.deps.json
+C:\Users\25190\Desktop\course\IOCPNet_learn\IOCPNet\IOCPNet\bin\Debug\netstandard2.0\IOCPNet.dll
+C:\Users\25190\Desktop\course\IOCPNet_learn\IOCPNet\IOCPNet\bin\Debug\netstandard2.0\IOCPNet.pdb
+C:\Users\25190\Desktop\course\IOCPNet_learn\IOCPNet\IOCPNet\obj\Debug\netstandard2.0\IOCPNet.csproj.AssemblyReference.cache
+C:\Users\25190\Desktop\course\IOCPNet_learn\IOCPNet\IOCPNet\obj\Debug\netstandard2.0\IOCPNet.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\25190\Desktop\course\IOCPNet_learn\IOCPNet\IOCPNet\obj\Debug\netstandard2.0\IOCPNet.AssemblyInfoInputs.cache
+C:\Users\25190\Desktop\course\IOCPNet_learn\IOCPNet\IOCPNet\obj\Debug\netstandard2.0\IOCPNet.AssemblyInfo.cs
+C:\Users\25190\Desktop\course\IOCPNet_learn\IOCPNet\IOCPNet\obj\Debug\netstandard2.0\IOCPNet.csproj.CoreCompileInputs.cache
+C:\Users\25190\Desktop\course\IOCPNet_learn\IOCPNet\IOCPNet\obj\Debug\netstandard2.0\IOCPNet.dll
+C:\Users\25190\Desktop\course\IOCPNet_learn\IOCPNet\IOCPNet\obj\Debug\netstandard2.0\IOCPNet.pdb
