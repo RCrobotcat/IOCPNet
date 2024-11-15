@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "C:\\Users\\25190\\Desktop\\course\\IOCPNet_learn\\IOCPNet\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{6E3CEAD0-F4A8-461A-9BDB-664356F38FDF}|IOCPNet\\IOCPNet.csproj|c:\\users\\25190\\desktop\\course\\iocpnet_learn\\iocpnet\\iocpnet\\iocptoken.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6E3CEAD0-F4A8-461A-9BDB-664356F38FDF}|IOCPNet\\IOCPNet.csproj|solutionrelative:iocpnet\\iocptoken.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{6E3CEAD0-F4A8-461A-9BDB-664356F38FDF}|IOCPNet\\IOCPNet.csproj|c:\\users\\25190\\desktop\\course\\iocpnet_learn\\iocpnet\\iocpnet\\iocpclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6E3CEAD0-F4A8-461A-9BDB-664356F38FDF}|IOCPNet\\IOCPNet.csproj|solutionrelative:iocpnet\\iocpclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -30,17 +34,31 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
+              "Title": "IOCPToken.cs",
+              "DocumentMoniker": "C:\\Users\\25190\\Desktop\\course\\IOCPNet_learn\\IOCPNet\\IOCPNet\\IOCPToken.cs",
+              "RelativeDocumentMoniker": "IOCPNet\\IOCPToken.cs",
+              "ToolTip": "C:\\Users\\25190\\Desktop\\course\\IOCPNet_learn\\IOCPNet\\IOCPNet\\IOCPToken.cs",
+              "RelativeToolTip": "IOCPNet\\IOCPToken.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAADcAAAAdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-15T02:55:34.685Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "IOCPServer.cs",
               "DocumentMoniker": "C:\\Users\\25190\\Desktop\\course\\IOCPNet_learn\\IOCPNet\\IOCPNet\\IOCPServer.cs",
               "RelativeDocumentMoniker": "IOCPNet\\IOCPServer.cs",
               "ToolTip": "C:\\Users\\25190\\Desktop\\course\\IOCPNet_learn\\IOCPNet\\IOCPNet\\IOCPServer.cs",
               "RelativeToolTip": "IOCPNet\\IOCPServer.cs",
-              "ViewState": "AQIAAAsAAAAAAAAAAAAtwBUAAAAUAAAA",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAABUAAAAUAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-15T01:28:24.298Z",
               "IsPinned": true,
@@ -48,13 +66,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "IOCPClient.cs",
               "DocumentMoniker": "C:\\Users\\25190\\Desktop\\course\\IOCPNet_learn\\IOCPNet\\IOCPNet\\IOCPClient.cs",
               "RelativeDocumentMoniker": "IOCPNet\\IOCPClient.cs",
               "ToolTip": "C:\\Users\\25190\\Desktop\\course\\IOCPNet_learn\\IOCPNet\\IOCPNet\\IOCPClient.cs",
               "RelativeToolTip": "IOCPNet\\IOCPClient.cs",
-              "ViewState": "AQIAAAgAAAAAAAAAAAAxwDcAAAAJAAAA",
+              "ViewState": "AQIAAB4AAAAAAAAAAAAYwDcAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-14T05:25:13.394Z",
               "IsPinned": true,
@@ -62,7 +80,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "ClientStart.cs",
               "DocumentMoniker": "C:\\Users\\25190\\Desktop\\course\\IOCPNet_learn\\IOCPNet\\IOCPExampleClient\\ClientStart.cs",
               "RelativeDocumentMoniker": "IOCPExampleClient\\ClientStart.cs",
@@ -76,13 +94,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "ServerStart.cs",
               "DocumentMoniker": "C:\\Users\\25190\\Desktop\\course\\IOCPNet_learn\\IOCPNet\\IOCPExampleServer\\ServerStart.cs",
               "RelativeDocumentMoniker": "IOCPExampleServer\\ServerStart.cs",
               "ToolTip": "C:\\Users\\25190\\Desktop\\course\\IOCPNet_learn\\IOCPNet\\IOCPExampleServer\\ServerStart.cs",
               "RelativeToolTip": "IOCPExampleServer\\ServerStart.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABcAAAA8AAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-13T15:45:23.601Z",
               "IsPinned": true,
@@ -90,13 +108,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "IOCPTool.cs",
               "DocumentMoniker": "C:\\Users\\25190\\Desktop\\course\\IOCPNet_learn\\IOCPNet\\IOCPNet\\IOCPTool.cs",
               "RelativeDocumentMoniker": "IOCPNet\\IOCPTool.cs",
               "ToolTip": "C:\\Users\\25190\\Desktop\\course\\IOCPNet_learn\\IOCPNet\\IOCPNet\\IOCPTool.cs",
               "RelativeToolTip": "IOCPNet\\IOCPTool.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAIAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAABAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-13T15:33:01.899Z",
               "IsPinned": true,

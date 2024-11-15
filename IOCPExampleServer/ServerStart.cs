@@ -7,6 +7,8 @@
  * 工具: 日志显示、序列化与反序列化等
  */
 
+// 控制台服务端 Console Server
+
 namespace IOCPExampleServer
 {
     class ServerStart
