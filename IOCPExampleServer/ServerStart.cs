@@ -19,6 +19,9 @@ namespace IOCPExampleServer
                 Console.WriteLine($"Console: {str}");
             };
             IOCPTool.ColorLog(IOCPLogColor.Green, "Server Start...");*/
+
+            IOCPServer server = new IOCPServer();
+            server.StartAsServer("127.0.0.1", 19000, 10000);
             Console.ReadKey();
         }
     }

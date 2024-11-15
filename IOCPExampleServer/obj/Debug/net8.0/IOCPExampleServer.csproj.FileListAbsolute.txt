@@ -16,3 +16,4 @@ C:\Users\25190\Desktop\course\IOCPNet_learn\IOCPNet\IOCPExampleServer\bin\Debug\
 C:\Users\25190\Desktop\course\IOCPNet_learn\IOCPNet\IOCPExampleServer\bin\Debug\net8.0\IOCPNet.pdb
 C:\Users\25190\Desktop\course\IOCPNet_learn\IOCPNet\IOCPExampleServer\obj\Debug\net8.0\IOCPExampleServer.csproj.AssemblyReference.cache
 C:\Users\25190\Desktop\course\IOCPNet_learn\IOCPNet\IOCPExampleServer\obj\Debug\net8.0\IOCPExam.9A1795CD.Up2Date
+C:\Users\25190\Desktop\course\IOCPNet_learn\IOCPNet\IOCPExampleServer\obj\Debug\net8.0\IOCPExampleServer.sourcelink.json
