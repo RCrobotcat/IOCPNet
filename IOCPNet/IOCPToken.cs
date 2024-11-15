@@ -1,11 +1,10 @@
-﻿using PENet;
-using System.Net.Sockets;
+﻿using System.Net.Sockets;
 using System;
 
 // IOCP连接会话的Token IOCP Connection Session Token
 // 用于处理连接会话的数据传输和处理 Used for data transmission and processing of connection sessions
 
-namespace IOCPNet
+namespace PENet
 {
     public enum TokenState
     {

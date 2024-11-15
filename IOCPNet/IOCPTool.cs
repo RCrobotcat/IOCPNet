@@ -1,6 +1,13 @@
 ﻿using System;
 using System.Threading;
 
+/*
+ * 核心类: 发起连接、接受连接
+ * 连接池: 批量创建连接、回收连接
+ * 连接: 数据收发管理
+ * 工具: 日志显示、序列化与反序列化等
+ */
+
 // Tools for IOCP 工具
 namespace PENet
 {

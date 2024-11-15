@@ -1,7 +1,7 @@
 ﻿using PENet;
 using System;
 
-// .Net Framework 控制台客户端 .Net Framework Console Client
+// .Net Framework控制台客户端 .Net Framework Console Client
 
 namespace IOCPExampleClient
 {
