@@ -24,7 +24,7 @@ namespace IOCPExampleServer
             IOCPMessage _msg = IOCPTool.Deserialize(data);
 
             IOCPServer server = new IOCPServer();
-            server.StartAsServer("127.0.0.1", 19000, 10000);
+            server.StartAsyncServer("127.0.0.1", 19000, 10000);
             Console.ReadKey();
         }
     }

@@ -35,6 +35,16 @@ namespace PENet
             return buff;
         }
 
+        public static byte[] PackLengthInfo(byte[] body) // 给数据包加上头部信息(数据长度) Pack header information (data length) for data
+        {
+            int length = body.Length;
+            byte[] packages = new byte[length + 4];
+            byte[] header = BitConverter.GetBytes(length);
+            header.CopyTo(packages, 0);
+            body.CopyTo(packages, 4);
+            return packages;
+        }
+
         public static byte[] Serialize(IOCPMessage msg)
         {
             byte[] data = null;
@@ -55,7 +65,7 @@ namespace PENet
                 ms.Close();
             }
             return data;
-        }
+        } 
 
         public static IOCPMessage Deserialize(byte[] bytes)
         {
@@ -77,6 +87,9 @@ namespace PENet
             return msg;
         }
 
+        /// <summary>
+        /// 日志输出部分
+        /// </summary>
         #region LOG
         public static Action<string> LogFunc;
         public static Action<IOCPLogColor, string> ColorLogFunc;

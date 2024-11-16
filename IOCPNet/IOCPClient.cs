@@ -17,7 +17,7 @@ namespace PENet
             saea.Completed += new EventHandler<SocketAsyncEventArgs>(IO_Completed);
         }
 
-        public void StartAsClient(string ip, int port)
+        public void StartAsyncClient(string ip, int port)
         {
             IPEndPoint pt = new IPEndPoint(IPAddress.Parse(ip), port);
             skt = new Socket(pt.AddressFamily, SocketType.Stream, ProtocolType.Tcp);

@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("IOCPExampleServer")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+48c543278dd9a524b21d807966b88f6f75ab7ab9")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+49ae884e02a4aafef630f5752addc31ffbc91fdc")]
 [assembly: System.Reflection.AssemblyProductAttribute("IOCPExampleServer")]
 [assembly: System.Reflection.AssemblyTitleAttribute("IOCPExampleServer")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

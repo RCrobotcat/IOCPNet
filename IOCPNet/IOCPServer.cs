@@ -19,7 +19,7 @@ namespace PENet
             saea.Completed += new EventHandler<SocketAsyncEventArgs>(IO_Completed);
         }
 
-        public void StartAsServer(string ip, int port, int maxConnectionCount) // maxConnectionCount: 最大负载连接数
+        public void StartAsyncServer(string ip, int port, int maxConnectionCount) // maxConnectionCount: 最大负载连接数
         {
             IPEndPoint pt = new IPEndPoint(IPAddress.Parse(ip), port);
             skt = new Socket(pt.AddressFamily, SocketType.Stream, ProtocolType.Tcp);
