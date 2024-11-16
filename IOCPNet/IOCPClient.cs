@@ -10,6 +10,7 @@ namespace PENet
     {
         Socket skt;
         SocketAsyncEventArgs saea; // SocketAsyncEventArgs: 用于异步套接字操作的事件参数
+        public IOCPToken token;
 
         public IOCPClient()
         {
@@ -48,8 +49,22 @@ namespace PENet
 
         void ProcessConnect()
         {
-            // TODO
+            token = new IOCPToken();
+            token.InitToken(skt);
             IOCPTool.Log("Connection Success."); // 连接成功
+        }
+
+        public void CloseClient()
+        {
+            if (token != null)
+            {
+                token.CloseToken();
+                token = null;
+            }
+            if (skt != null)
+            {
+                skt = null;
+            }
         }
 
         void IO_Completed(object sender, SocketAsyncEventArgs saea)

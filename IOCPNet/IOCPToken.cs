@@ -150,7 +150,28 @@ namespace PENet
 
         public void CloseToken()
         {
-            // TODO
+            if (skt != null)
+            {
+                tokenState = TokenState.Disconnected;
+                OnDisconnected();
+                readList.Clear();
+                cacheQueue.Clear();
+                isWriting = false;
+
+                try
+                {
+                    skt.Shutdown(SocketShutdown.Send);
+                }
+                catch (Exception e)
+                {
+                    IOCPTool.ErrorLog("Error on Shutdown Socket:{0}", e.ToString());
+                }
+                finally
+                {
+                    skt.Close();
+                    skt = null;
+                }
+            }
         }
 
         void OnConnected()
@@ -161,6 +182,11 @@ namespace PENet
         void OnRecieveMessage(IOCPMessage msg)
         {
             IOCPTool.Log("Receive Message: {0}", msg.helloMessage);
+        }
+
+        void OnDisconnected()
+        {
+            IOCPTool.Log("Disconnected.");
         }
     }
 }
