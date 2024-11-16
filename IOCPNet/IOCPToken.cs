@@ -67,7 +67,11 @@ namespace PENet
 
         void ProcessByteList()
         {
-
+            byte[] buff = IOCPTool.SplitLogicBytes(ref readList);
+            if (buff != null)
+            {
+                // TODO
+            }
         }
 
         void IO_Completed(object sender, SocketAsyncEventArgs saea)

@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 using System.Threading;
 
 /*
@@ -13,6 +14,24 @@ namespace PENet
 {
     public static class IOCPTool
     {
+        public static byte[] SplitLogicBytes(ref List<byte> bytesList)
+        {
+            byte[] buff = null;
+            if (bytesList.Count > 4) // header is int(4 bytes)
+            {
+                // header: 存储后面数据长度的头部 header: store the length of data
+                byte[] data = bytesList.ToArray();
+                int length = BitConverter.ToInt32(data, 0); // Get the length of data.(获取数据长度 length)
+                if (bytesList.Count >= length + 4)
+                {
+                    buff = new byte[length];
+                    Buffer.BlockCopy(data, 4, buff, 0, length); // Start at 4 because its header is 4 bytes(int).
+                    bytesList.RemoveRange(0, length + 4);
+                }
+            }
+            return buff;
+        }
+
         #region LOG
         public static Action<string> LogFunc;
         public static Action<IOCPLogColor, string> ColorLogFunc;
