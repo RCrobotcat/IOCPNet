@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 using System.Net;
 using System.Net.Sockets;
 
@@ -12,6 +13,8 @@ namespace PENet
         SocketAsyncEventArgs saea;
 
         public int backlog = 100; // 最大挂起连接数(最大连接排队数)
+        IOCPTokenPool tokenPool;
+        List<IOCPToken> tokenList;
 
         public IOCPServer()
         {
@@ -21,6 +24,17 @@ namespace PENet
 
         public void StartAsyncServer(string ip, int port, int maxConnectionCount) // maxConnectionCount: 最大负载连接数
         {
+            tokenPool = new IOCPTokenPool(maxConnectionCount);
+            for (int i = 0; i < maxConnectionCount; i++)
+            {
+                IOCPToken token = new IOCPToken
+                {
+                    tokenID = i
+                };
+                tokenPool.Push(token);
+            }
+            tokenList = new List<IOCPToken>();
+
             IPEndPoint pt = new IPEndPoint(IPAddress.Parse(ip), port);
             skt = new Socket(pt.AddressFamily, SocketType.Stream, ProtocolType.Tcp);
             skt.Bind(pt);
