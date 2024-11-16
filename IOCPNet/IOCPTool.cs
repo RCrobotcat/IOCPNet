@@ -1,5 +1,8 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.IO;
+using System.Runtime.Serialization;
+using System.Runtime.Serialization.Formatters.Binary;
 using System.Threading;
 
 /*
@@ -30,6 +33,48 @@ namespace PENet
                 }
             }
             return buff;
+        }
+
+        public static byte[] Serialize(IOCPMessage msg)
+        {
+            byte[] data = null;
+            MemoryStream ms = new MemoryStream();
+            BinaryFormatter bf = new BinaryFormatter();
+            try // 序列化msg 容易出错, 所以用try-catch
+            {
+                bf.Serialize(ms, msg);
+                ms.Seek(0, SeekOrigin.Begin);
+                data = ms.ToArray();
+            }
+            catch (SerializationException e)
+            {
+                ErrorLog("Serialization Failed! Reason:{0}", e.Message);
+            }
+            finally
+            {
+                ms.Close();
+            }
+            return data;
+        }
+
+        public static IOCPMessage Deserialize(byte[] bytes)
+        {
+            IOCPMessage msg = null;
+            MemoryStream ms = new MemoryStream(bytes);
+            BinaryFormatter bf = new BinaryFormatter();
+            try // 序列化msg 容易出错, 所以用try-catch
+            {
+                msg = (IOCPMessage)bf.Deserialize(ms);
+            }
+            catch (SerializationException e)
+            {
+                ErrorLog("Deserialization Failed! Reason:{0}, bytes length:{1}", e.Message, bytes.Length);
+            }
+            finally
+            {
+                ms.Close();
+            }
+            return msg;
         }
 
         #region LOG

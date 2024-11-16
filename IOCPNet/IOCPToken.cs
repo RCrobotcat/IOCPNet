@@ -70,7 +70,9 @@ namespace PENet
             byte[] buff = IOCPTool.SplitLogicBytes(ref readList);
             if (buff != null)
             {
-                // TODO
+                IOCPMessage msg = IOCPTool.Deserialize(buff);
+                OnRecieveMessage(msg);
+                ProcessByteList(); // Continue to process the remaining data.
             }
         }
 
@@ -87,6 +89,11 @@ namespace PENet
         void OnConnected()
         {
             IOCPTool.Log("Connection Success.");
+        }
+
+        void OnRecieveMessage(IOCPMessage msg)
+        {
+            IOCPTool.Log("Receive Message: {0}", msg.helloMessage);
         }
     }
 }

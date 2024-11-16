@@ -8,3 +8,6 @@ C:\Users\25190\Desktop\course\IOCPNet_learn\IOCPNet\IOCPExampleClient\obj\Debug\
 C:\Users\25190\Desktop\course\IOCPNet_learn\IOCPNet\IOCPExampleClient\obj\Debug\IOCPExam.B8D910C3.Up2Date
 C:\Users\25190\Desktop\course\IOCPNet_learn\IOCPNet\IOCPExampleClient\obj\Debug\IOCPExampleClient.exe
 C:\Users\25190\Desktop\course\IOCPNet_learn\IOCPNet\IOCPExampleClient\obj\Debug\IOCPExampleClient.pdb
+C:\Users\25190\Desktop\course\IOCPNet_learn\IOCPNet\IOCPExampleClient\bin\Debug\System.Memory.dll
+C:\Users\25190\Desktop\course\IOCPNet_learn\IOCPNet\IOCPExampleClient\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\25190\Desktop\course\IOCPNet_learn\IOCPNet\IOCPExampleClient\bin\Debug\System.Buffers.dll
