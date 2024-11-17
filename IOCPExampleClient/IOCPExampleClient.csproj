@@ -44,12 +44,17 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="ClientStart.cs" />
+    <Compile Include="ClientToken.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\IOCPExampleProtocol\IOCPExampleProtocol.csproj">
+      <Project>{63047f52-1511-4195-87db-fb0e2ccd7dd7}</Project>
+      <Name>IOCPExampleProtocol</Name>
+    </ProjectReference>
     <ProjectReference Include="..\IOCPNet\IOCPNet.csproj">
       <Project>{6e3cead0-f4a8-461a-9bdb-664356f38fdf}</Project>
       <Name>IOCPNet</Name>

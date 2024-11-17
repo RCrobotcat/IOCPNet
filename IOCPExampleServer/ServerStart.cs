@@ -1,4 +1,5 @@
-﻿using PENet;
+﻿using IOCPExampleProtocol;
+using PENet;
 
 // .net core 控制台服务端 .net core console server
 
@@ -21,7 +22,7 @@ namespace IOCPExampleServer
             };
             byte[] data = IOCPTool.Serialize(msg);
             IOCPMessage _msg = IOCPTool.Deserialize(data);*/
-            IOCPServer server = new IOCPServer();
+            IOCPNet<ServerToken, NetMessage> server = new IOCPNet<ServerToken, NetMessage>();
             server.StartAsyncServer("127.0.0.1", 18000, 10000);
 
             while (true)
@@ -33,10 +34,10 @@ namespace IOCPExampleServer
                 }
                 else
                 {
-                    List<IOCPToken> tokenList = server.GetTokenList();
+                    List<ServerToken> tokenList = server.GetTokenList();
                     for (int i = 0; i < tokenList.Count; i++)
                     {
-                        tokenList[i].SendMsg(new IOCPMessage
+                        tokenList[i].SendMsg(new NetMessage
                         {
                             helloMessage = string.Format("broadcast: {0}", input)
                         });

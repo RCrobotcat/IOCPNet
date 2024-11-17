@@ -1,0 +1,14 @@
+C:\Users\25190\Desktop\course\IOCPNet_learn\IOCPNet\IOCPExampleProtocol\bin\Debug\netstandard2.0\IOCPExampleProtocol.deps.json
+C:\Users\25190\Desktop\course\IOCPNet_learn\IOCPNet\IOCPExampleProtocol\bin\Debug\netstandard2.0\IOCPExampleProtocol.dll
+C:\Users\25190\Desktop\course\IOCPNet_learn\IOCPNet\IOCPExampleProtocol\bin\Debug\netstandard2.0\IOCPExampleProtocol.pdb
+C:\Users\25190\Desktop\course\IOCPNet_learn\IOCPNet\IOCPExampleProtocol\bin\Debug\netstandard2.0\IOCPNet.dll
+C:\Users\25190\Desktop\course\IOCPNet_learn\IOCPNet\IOCPExampleProtocol\bin\Debug\netstandard2.0\IOCPNet.pdb
+C:\Users\25190\Desktop\course\IOCPNet_learn\IOCPNet\IOCPExampleProtocol\obj\Debug\netstandard2.0\IOCPExampleProtocol.csproj.AssemblyReference.cache
+C:\Users\25190\Desktop\course\IOCPNet_learn\IOCPNet\IOCPExampleProtocol\obj\Debug\netstandard2.0\IOCPExampleProtocol.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\25190\Desktop\course\IOCPNet_learn\IOCPNet\IOCPExampleProtocol\obj\Debug\netstandard2.0\IOCPExampleProtocol.AssemblyInfoInputs.cache
+C:\Users\25190\Desktop\course\IOCPNet_learn\IOCPNet\IOCPExampleProtocol\obj\Debug\netstandard2.0\IOCPExampleProtocol.AssemblyInfo.cs
+C:\Users\25190\Desktop\course\IOCPNet_learn\IOCPNet\IOCPExampleProtocol\obj\Debug\netstandard2.0\IOCPExampleProtocol.csproj.CoreCompileInputs.cache
+C:\Users\25190\Desktop\course\IOCPNet_learn\IOCPNet\IOCPExampleProtocol\obj\Debug\netstandard2.0\IOCPExampleProtocol.sourcelink.json
+C:\Users\25190\Desktop\course\IOCPNet_learn\IOCPNet\IOCPExampleProtocol\obj\Debug\netstandard2.0\IOCPExam.96A5E734.Up2Date
+C:\Users\25190\Desktop\course\IOCPNet_learn\IOCPNet\IOCPExampleProtocol\obj\Debug\netstandard2.0\IOCPExampleProtocol.dll
+C:\Users\25190\Desktop\course\IOCPNet_learn\IOCPNet\IOCPExampleProtocol\obj\Debug\netstandard2.0\IOCPExampleProtocol.pdb

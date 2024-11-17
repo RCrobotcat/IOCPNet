@@ -45,7 +45,7 @@ namespace PENet
             return packages;
         }
 
-        public static byte[] Serialize(IOCPMessage msg)
+        public static byte[] Serialize<T>(T msg) where T : IOCPMessage
         {
             byte[] data = null;
             MemoryStream ms = new MemoryStream();
@@ -65,16 +65,16 @@ namespace PENet
                 ms.Close();
             }
             return data;
-        } 
+        }
 
-        public static IOCPMessage Deserialize(byte[] bytes)
+        public static T Deserialize<T>(byte[] bytes) where T : IOCPMessage
         {
-            IOCPMessage msg = null;
+            T msg = null;
             MemoryStream ms = new MemoryStream(bytes);
             BinaryFormatter bf = new BinaryFormatter();
             try // 序列化msg 容易出错, 所以用try-catch
             {
-                msg = (IOCPMessage)bf.Deserialize(ms);
+                msg = (T)bf.Deserialize(ms);
             }
             catch (SerializationException e)
             {

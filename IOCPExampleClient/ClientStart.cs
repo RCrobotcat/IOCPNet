@@ -1,4 +1,5 @@
-﻿using PENet;
+﻿using IOCPExampleProtocol;
+using PENet;
 using System;
 
 // .Net Framework控制台客户端 .Net Framework Console Client
@@ -9,7 +10,7 @@ namespace IOCPExampleClient
     {
         static void Main(string[] args)
         {
-            IOCPClient client = new IOCPClient();
+            IOCPNet<ClientToken, NetMessage> client = new IOCPNet<ClientToken, NetMessage>();
             client.StartAsyncClient("127.0.0.1", 18000); // port: 0-65535
 
             while (true)
@@ -22,7 +23,7 @@ namespace IOCPExampleClient
                 }
                 else
                 {
-                    IOCPMessage msg = new IOCPMessage
+                    NetMessage msg = new NetMessage
                     {
                         helloMessage = input
                     };

@@ -14,7 +14,7 @@ namespace PENet
         Disconnected,
     }
 
-    public class IOCPToken
+    public abstract class IOCPToken<T> where T : IOCPMessage, new()
     {
         public int tokenID;
         private List<byte> readList = new List<byte>();
@@ -49,6 +49,7 @@ namespace PENet
             StartAsyncReceive();
         }
 
+        #region Receive Operation
         void StartAsyncReceive()
         {
             bool suspend = skt.ReceiveAsync(rcvSaea);
@@ -73,19 +74,20 @@ namespace PENet
                 CloseToken();
             }
         }
-
         void ProcessByteList()
         {
             byte[] buff = IOCPTool.SplitLogicBytes(ref readList);
             if (buff != null)
             {
-                IOCPMessage msg = IOCPTool.Deserialize(buff);
+                T msg = IOCPTool.Deserialize<T>(buff);
                 OnRecieveMessage(msg);
                 ProcessByteList(); // Continue to process the remaining data.
             }
         }
+        #endregion
 
-        public bool SendMsg(IOCPMessage msg)
+        #region Send Operation
+        public bool SendMsg(T msg)
         {
             byte[] bytes = IOCPTool.Serialize(msg);
             byte[] msgBytes = IOCPTool.PackLengthInfo(bytes);
@@ -132,6 +134,7 @@ namespace PENet
                 CloseToken();
             }
         }
+        #endregion
 
         void IO_Completed(object sender, SocketAsyncEventArgs saea)
         {
@@ -178,19 +181,8 @@ namespace PENet
             }
         }
 
-        void OnConnected()
-        {
-            IOCPTool.Log("Connection Success.");
-        }
-
-        void OnRecieveMessage(IOCPMessage msg)
-        {
-            IOCPTool.Log("Receive Message: {0}", msg.helloMessage);
-        }
-
-        void OnDisconnected()
-        {
-            IOCPTool.Log("Disconnected.");
-        }
+        protected abstract void OnRecieveMessage(T msg);
+        protected abstract void OnConnected();
+        protected abstract void OnDisconnected();
     }
 }

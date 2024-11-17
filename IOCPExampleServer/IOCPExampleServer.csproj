@@ -8,6 +8,7 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\IOCPExampleProtocol\IOCPExampleProtocol.csproj" />
     <ProjectReference Include="..\IOCPNet\IOCPNet.csproj" />
   </ItemGroup>
 

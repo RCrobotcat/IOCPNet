@@ -4,17 +4,19 @@
 
 namespace PENet
 {
-    public class IOCPTokenPool
+    public class IOCPTokenPool<T, K>
+        where T : IOCPToken<K>, new()
+        where K : IOCPMessage, new()
     {
-        Stack<IOCPToken> stack;
+        Stack<T> stack;
         public int size => stack.Count;
 
         public IOCPTokenPool(int capacity)
         {
-            stack = new Stack<IOCPToken>(capacity);
+            stack = new Stack<T>(capacity);
         }
 
-        public IOCPToken Pop()
+        public T Pop()
         {
             lock (stack)
             {
@@ -22,7 +24,7 @@ namespace PENet
             }
         }
 
-        public void Push(IOCPToken token)
+        public void Push(T token)
         {
             if (token == null)
             {

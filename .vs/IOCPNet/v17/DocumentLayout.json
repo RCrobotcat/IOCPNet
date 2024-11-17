@@ -3,24 +3,28 @@
   "WorkspaceRootPath": "C:\\Users\\25190\\Desktop\\course\\IOCPNet_learn\\IOCPNet\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{5978FB62-F2A0-4BC5-BE29-31C42E80FAAF}|IOCPExampleServer\\IOCPExampleServer.csproj|c:\\users\\25190\\desktop\\course\\iocpnet_learn\\iocpnet\\iocpexampleserver\\serverstart.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5978FB62-F2A0-4BC5-BE29-31C42E80FAAF}|IOCPExampleServer\\IOCPExampleServer.csproj|solutionrelative:iocpexampleserver\\serverstart.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{82D622B9-583F-462C-A6C3-787EBFE43232}|IOCPExampleClient\\IOCPExampleClient.csproj|c:\\users\\25190\\desktop\\course\\iocpnet_learn\\iocpnet\\iocpexampleclient\\clientstart.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{82D622B9-583F-462C-A6C3-787EBFE43232}|IOCPExampleClient\\IOCPExampleClient.csproj|solutionrelative:iocpexampleclient\\clientstart.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6E3CEAD0-F4A8-461A-9BDB-664356F38FDF}|IOCPNet\\IOCPNet.csproj|c:\\users\\25190\\desktop\\course\\iocpnet_learn\\iocpnet\\iocpnet\\iocpserver.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6E3CEAD0-F4A8-461A-9BDB-664356F38FDF}|IOCPNet\\IOCPNet.csproj|solutionrelative:iocpnet\\iocpserver.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{6E3CEAD0-F4A8-461A-9BDB-664356F38FDF}|IOCPNet\\IOCPNet.csproj|c:\\users\\25190\\desktop\\course\\iocpnet_learn\\iocpnet\\iocpnet\\iocpnet.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6E3CEAD0-F4A8-461A-9BDB-664356F38FDF}|IOCPNet\\IOCPNet.csproj|solutionrelative:iocpnet\\iocpnet.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{6E3CEAD0-F4A8-461A-9BDB-664356F38FDF}|IOCPNet\\IOCPNet.csproj|c:\\users\\25190\\desktop\\course\\iocpnet_learn\\iocpnet\\iocpnet\\iocptoken.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6E3CEAD0-F4A8-461A-9BDB-664356F38FDF}|IOCPNet\\IOCPNet.csproj|solutionrelative:iocpnet\\iocptoken.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6E3CEAD0-F4A8-461A-9BDB-664356F38FDF}|IOCPNet\\IOCPNet.csproj|c:\\users\\25190\\desktop\\course\\iocpnet_learn\\iocpnet\\iocpnet\\iocpclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6E3CEAD0-F4A8-461A-9BDB-664356F38FDF}|IOCPNet\\IOCPNet.csproj|solutionrelative:iocpnet\\iocpclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{82D622B9-583F-462C-A6C3-787EBFE43232}|IOCPExampleClient\\IOCPExampleClient.csproj|C:\\Users\\25190\\Desktop\\course\\IOCPNet_learn\\IOCPNet\\iocpexampleclient\\clientstart.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{82D622B9-583F-462C-A6C3-787EBFE43232}|IOCPExampleClient\\IOCPExampleClient.csproj|solutionrelative:iocpexampleclient\\clientstart.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5978FB62-F2A0-4BC5-BE29-31C42E80FAAF}|IOCPExampleServer\\IOCPExampleServer.csproj|c:\\users\\25190\\desktop\\course\\iocpnet_learn\\iocpnet\\iocpexampleserver\\serverstart.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5978FB62-F2A0-4BC5-BE29-31C42E80FAAF}|IOCPExampleServer\\IOCPExampleServer.csproj|solutionrelative:iocpexampleserver\\serverstart.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5978FB62-F2A0-4BC5-BE29-31C42E80FAAF}|IOCPExampleServer\\IOCPExampleServer.csproj|c:\\users\\25190\\desktop\\course\\iocpnet_learn\\iocpnet\\iocpexampleserver\\servertoken.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5978FB62-F2A0-4BC5-BE29-31C42E80FAAF}|IOCPExampleServer\\IOCPExampleServer.csproj|solutionrelative:iocpexampleserver\\servertoken.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{82D622B9-583F-462C-A6C3-787EBFE43232}|IOCPExampleClient\\IOCPExampleClient.csproj|c:\\users\\25190\\desktop\\course\\iocpnet_learn\\iocpnet\\iocpexampleclient\\clienttoken.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{82D622B9-583F-462C-A6C3-787EBFE43232}|IOCPExampleClient\\IOCPExampleClient.csproj|solutionrelative:iocpexampleclient\\clienttoken.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,17 +34,31 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 4,
+              "Title": "ServerToken.cs",
+              "DocumentMoniker": "C:\\Users\\25190\\Desktop\\course\\IOCPNet_learn\\IOCPNet\\IOCPExampleServer\\ServerToken.cs",
+              "RelativeDocumentMoniker": "IOCPExampleServer\\ServerToken.cs",
+              "ToolTip": "C:\\Users\\25190\\Desktop\\course\\IOCPNet_learn\\IOCPNet\\IOCPExampleServer\\ServerToken.cs",
+              "RelativeToolTip": "IOCPExampleServer\\ServerToken.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAAcAAAAPAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-17T09:15:14.421Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "ServerStart.cs",
               "DocumentMoniker": "C:\\Users\\25190\\Desktop\\course\\IOCPNet_learn\\IOCPNet\\IOCPExampleServer\\ServerStart.cs",
               "RelativeDocumentMoniker": "IOCPExampleServer\\ServerStart.cs",
               "ToolTip": "C:\\Users\\25190\\Desktop\\course\\IOCPNet_learn\\IOCPNet\\IOCPExampleServer\\ServerStart.cs",
               "RelativeToolTip": "IOCPExampleServer\\ServerStart.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABgAAAA2AAAA",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAACkAAABGAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-17T04:36:23.534Z",
               "IsPinned": true,
@@ -48,13 +66,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "ClientStart.cs",
               "DocumentMoniker": "C:\\Users\\25190\\Desktop\\course\\IOCPNet_learn\\IOCPNet\\IOCPExampleClient\\ClientStart.cs",
               "RelativeDocumentMoniker": "IOCPExampleClient\\ClientStart.cs",
               "ToolTip": "C:\\Users\\25190\\Desktop\\course\\IOCPNet_learn\\IOCPNet\\IOCPExampleClient\\ClientStart.cs",
               "RelativeToolTip": "IOCPExampleClient\\ClientStart.cs",
-              "ViewState": "AQIAAAoAAAAAAAAAAAAQwB0AAAARAAAA",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAABQAAAAmAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-17T05:04:19.5Z",
               "IsPinned": true,
@@ -62,27 +80,27 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "IOCPClient.cs",
-              "DocumentMoniker": "C:\\Users\\25190\\Desktop\\course\\IOCPNet_learn\\IOCPNet\\IOCPNet\\IOCPClient.cs",
-              "RelativeDocumentMoniker": "IOCPNet\\IOCPClient.cs",
-              "ToolTip": "C:\\Users\\25190\\Desktop\\course\\IOCPNet_learn\\IOCPNet\\IOCPNet\\IOCPClient.cs",
-              "RelativeToolTip": "IOCPNet\\IOCPClient.cs",
-              "ViewState": "AQIAACEAAAAAAAAAAAAYwAwAAAAbAAAA",
+              "DocumentIndex": 1,
+              "Title": "IOCPToken.cs",
+              "DocumentMoniker": "C:\\Users\\25190\\Desktop\\course\\IOCPNet_learn\\IOCPNet\\IOCPNet\\IOCPToken.cs",
+              "RelativeDocumentMoniker": "IOCPNet\\IOCPToken.cs",
+              "ToolTip": "C:\\Users\\25190\\Desktop\\course\\IOCPNet_learn\\IOCPNet\\IOCPNet\\IOCPToken.cs",
+              "RelativeToolTip": "IOCPNet\\IOCPToken.cs",
+              "ViewState": "AQIAAJYAAAAAAAAAAAAQwKEAAAAQAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-16T15:11:18.094Z",
+              "WhenOpened": "2024-11-15T02:55:34.685Z",
               "IsPinned": true,
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "IOCPServer.cs",
-              "DocumentMoniker": "C:\\Users\\25190\\Desktop\\course\\IOCPNet_learn\\IOCPNet\\IOCPNet\\IOCPServer.cs",
-              "RelativeDocumentMoniker": "IOCPNet\\IOCPServer.cs",
-              "ToolTip": "C:\\Users\\25190\\Desktop\\course\\IOCPNet_learn\\IOCPNet\\IOCPNet\\IOCPServer.cs",
-              "RelativeToolTip": "IOCPNet\\IOCPServer.cs",
-              "ViewState": "AQIAABoAAAAAAAAAAAAQwEIAAAArAAAA",
+              "DocumentIndex": 0,
+              "Title": "IOCPNet.cs",
+              "DocumentMoniker": "C:\\Users\\25190\\Desktop\\course\\IOCPNet_learn\\IOCPNet\\IOCPNet\\IOCPNet.cs",
+              "RelativeDocumentMoniker": "IOCPNet\\IOCPNet.cs",
+              "ToolTip": "C:\\Users\\25190\\Desktop\\course\\IOCPNet_learn\\IOCPNet\\IOCPNet\\IOCPNet.cs",
+              "RelativeToolTip": "IOCPNet\\IOCPNet.cs",
+              "ViewState": "AQIAABsAAAAAAAAAAAAmwHwAAAAdAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-16T15:11:21.728Z",
               "IsPinned": true,
@@ -90,16 +108,15 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "IOCPToken.cs",
-              "DocumentMoniker": "C:\\Users\\25190\\Desktop\\course\\IOCPNet_learn\\IOCPNet\\IOCPNet\\IOCPToken.cs",
-              "RelativeDocumentMoniker": "IOCPNet\\IOCPToken.cs",
-              "ToolTip": "C:\\Users\\25190\\Desktop\\course\\IOCPNet_learn\\IOCPNet\\IOCPNet\\IOCPToken.cs",
-              "RelativeToolTip": "IOCPNet\\IOCPToken.cs",
-              "ViewState": "AQIAABkAAAAAAAAAAAAuwDMAAAAAAAAA",
+              "DocumentIndex": 5,
+              "Title": "ClientToken.cs",
+              "DocumentMoniker": "C:\\Users\\25190\\Desktop\\course\\IOCPNet_learn\\IOCPNet\\IOCPExampleClient\\ClientToken.cs",
+              "RelativeDocumentMoniker": "IOCPExampleClient\\ClientToken.cs",
+              "ToolTip": "C:\\Users\\25190\\Desktop\\course\\IOCPNet_learn\\IOCPNet\\IOCPExampleClient\\ClientToken.cs",
+              "RelativeToolTip": "IOCPExampleClient\\ClientToken.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAABBAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-15T02:55:34.685Z",
-              "IsPinned": true,
+              "WhenOpened": "2024-11-17T09:21:04.452Z",
               "EditorCaption": ""
             }
           ]
