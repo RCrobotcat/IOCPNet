@@ -29,3 +29,74 @@ IOCPNet的优点包括：
 3. **低资源消耗**：与传统的多线程或多进程模型相比，IOCP能够以较少的系统资源管理大量并发连接。  
   
 IOCP通常与套接字编程结合使用，是Windows平台上开发高性能网络服务的一个重要工具。
+
+## Unity中使用示例:
+**UnityToken.cs**  
+```
+using PENet;
+using IOCPExampleProtocol;
+
+public class UnityToken : IOCPToken<NetMessage>
+{
+    protected override void OnConnected()
+    {
+        IOCPTool.ColorLog(IOCPLogColor.Green, "Connected to Server!");
+    }
+
+    protected override void OnDisconnected()
+    {
+        IOCPTool.WarnLog("Disconnected from Server!");
+    }
+
+    protected override void OnRecieveMessage(NetMessage msg)
+    {
+        IOCPTool.Log("Message Received from Server: {0}", msg.helloMessage);
+    }
+}
+```
+
+**TestStart.cs**  
+```
+using UnityEngine;
+using PENet;
+using IOCPExampleProtocol;
+
+// Unity IOCP 客户端入口
+// Unity IOCP Client Entry
+
+public class TestStart : MonoBehaviour
+{
+    IOCPNet<UnityToken, NetMessage> client;
+
+    void Start()
+    {
+        client = new IOCPNet<UnityToken, NetMessage>();
+        client.StartAsyncClient("127.0.0.1", 18000);
+
+        IOCPTool.LogFunc = Debug.Log;
+        IOCPTool.WarnFunc = Debug.LogWarning;
+        IOCPTool.ErrorFunc = Debug.LogError;
+        IOCPTool.ColorLogFunc = (color, message) =>
+        {
+            Debug.Log(color.ToString() + ": " + message);
+        };
+    }
+
+    void Update()
+    {
+        if (Input.GetKeyDown(KeyCode.Space))
+        {
+            NetMessage msg = new NetMessage
+            {
+                helloMessage = "Hello from Unity!"
+            };
+            client.token.SendMsg(msg);
+        }
+
+        if (Input.GetKeyDown(KeyCode.Escape))
+        {
+            client.CloseClient();
+        }
+    }
+}
+```
