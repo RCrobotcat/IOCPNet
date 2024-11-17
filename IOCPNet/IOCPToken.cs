@@ -21,6 +21,8 @@ namespace PENet
         private List<byte> readList = new List<byte>();
         public TokenState tokenState = TokenState.None;
 
+        public Action<int> tokenCloseCallback;
+
         private Queue<byte[]> cacheQueue = new Queue<byte[]>(); // 缓存队列: 等到上一条消息处理完毕后再处理下一条消息, 先将下一条消息缓存起来
         // Cache queue: Wait until the previous message is processed before processing the next message, first cache the next message
         private bool isWriting = false; // 是否正在写入数据: 防止多线程同时写入数据, 造成数据错乱 
@@ -154,6 +156,9 @@ namespace PENet
             {
                 tokenState = TokenState.Disconnected;
                 OnDisconnected();
+
+                tokenCloseCallback?.Invoke(tokenID);
+
                 readList.Clear();
                 cacheQueue.Clear();
                 isWriting = false;
