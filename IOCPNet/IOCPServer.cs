@@ -1,7 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Net;
-using System.Net.Http.Headers;
 using System.Net.Sockets;
 using System.Threading;
 
@@ -52,6 +51,7 @@ namespace PENet
 
         void StartAccept()
         {
+            saea.AcceptSocket = null;
             acceptSemaphore.WaitOne(); // Wait for the semaphore to be released. 等待信号量被释放(信号量减1)
             bool suspend = skt.AcceptAsync(saea);
             if (!suspend) // Acceptence Success.
@@ -99,6 +99,20 @@ namespace PENet
             else
             {
                 IOCPTool.ErrorLog("TokenID: {0} not found in server token list.", tokenID);
+            }
+        }
+
+        public void CloseServer()
+        {
+            for (int i = 0; i < tokenList.Count; i++)
+            {
+                tokenList[i].CloseToken();
+            }
+            tokenList = null;
+            if (skt != null)
+            {
+                skt.Close();
+                skt = null;
             }
         }
 

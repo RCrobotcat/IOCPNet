@@ -1,7 +1,6 @@
 ﻿using System.Net.Sockets;
 using System;
 using System.Collections.Generic;
-using System.Diagnostics;
 
 // IOCP连接会话的Token IOCP Connection Session Token
 // 用于处理连接会话的数据传输和处理 Used for data transmission and processing of connection sessions
@@ -70,7 +69,7 @@ namespace PENet
             }
             else
             {
-                IOCPTool.WarnLog("Token: {0} Close:{1}", tokenID, rcvSaea.SocketError.ToString());
+                IOCPTool.WarnLog("Token: {0} Close: {1}", tokenID, rcvSaea.SocketError.ToString());
                 CloseToken();
             }
         }

@@ -11,7 +11,24 @@ namespace IOCPExampleClient
         {
             IOCPClient client = new IOCPClient();
             client.StartAsyncClient("127.0.0.1", 18000); // port: 0-65535
-            Console.ReadKey();
+
+            while (true)
+            {
+                string input = Console.ReadLine();
+                if (input == "quit")
+                {
+                    client.CloseClient();
+                    break;
+                }
+                else
+                {
+                    IOCPMessage msg = new IOCPMessage
+                    {
+                        helloMessage = input
+                    };
+                    client.token.SendMsg(msg);
+                }
+            }
         }
     }
 }

@@ -51,7 +51,6 @@ namespace PENet
         {
             token = new IOCPToken();
             token.InitToken(skt);
-            IOCPTool.Log("Connection Success."); // 连接成功
         }
 
         public void CloseClient()
